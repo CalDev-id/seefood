@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031BE1E72CA639D1003DA43D /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BE1E62CA639D1003DA43D /* ImageData.swift */; };
+		032953B92CA6AFDD0049923F /* AcneLVLPROV1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 032953B62CA6AFDD0049923F /* AcneLVLPROV1.mlmodel */; };
+		032953BA2CA6AFDD0049923F /* BlackSkinV1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 032953B72CA6AFDD0049923F /* BlackSkinV1.mlmodel */; };
+		032953BB2CA6AFDD0049923F /* BlackSkinV2PRO.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 032953B82CA6AFDD0049923F /* BlackSkinV2PRO.mlmodel */; };
+		032953BC2CA6AFDD0049923F /* AcneLVL1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 032953B52CA6AFDD0049923F /* AcneLVL1.mlmodel */; };
+		032953BE2CA6B0130049923F /* Acne27SepPRO.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 032953BD2CA6B0130049923F /* Acne27SepPRO.mlmodel */; };
+		036F04492CA2BDC000B9A93E /* Acne23SepV3Pro.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 036F04482CA2BDC000B9A93E /* Acne23SepV3Pro.mlmodel */; };
+		036F044A2CA2BDC000B9A93E /* Acne23SepV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 036F04472CA2BDC000B9A93E /* Acne23SepV3.mlmodel */; };
 		5E5F7105266598B200C7B0F7 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F7104266598B200C7B0F7 /* Classifier.swift */; };
 		5E5F7107266599F200C7B0F7 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F7106266599F200C7B0F7 /* MobileNetV2.mlmodel */; };
 		5E5F71092666023400C7B0F7 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F71082666023400C7B0F7 /* ImageClassifier.swift */; };
@@ -18,6 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		031BE1E62CA639D1003DA43D /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		032953B52CA6AFDD0049923F /* AcneLVL1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AcneLVL1.mlmodel; sourceTree = "<group>"; };
+		032953B62CA6AFDD0049923F /* AcneLVLPROV1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AcneLVLPROV1.mlmodel; sourceTree = "<group>"; };
+		032953B72CA6AFDD0049923F /* BlackSkinV1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BlackSkinV1.mlmodel; sourceTree = "<group>"; };
+		032953B82CA6AFDD0049923F /* BlackSkinV2PRO.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BlackSkinV2PRO.mlmodel; sourceTree = "<group>"; };
+		032953BD2CA6B0130049923F /* Acne27SepPRO.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Acne27SepPRO.mlmodel; sourceTree = "<group>"; };
+		036F04472CA2BDC000B9A93E /* Acne23SepV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Acne23SepV3.mlmodel; sourceTree = "<group>"; };
+		036F04482CA2BDC000B9A93E /* Acne23SepV3Pro.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Acne23SepV3Pro.mlmodel; sourceTree = "<group>"; };
 		5E5F7104266598B200C7B0F7 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
 		5E5F7106266599F200C7B0F7 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		5E5F71082666023400C7B0F7 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
@@ -41,6 +57,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032953B12CA6AF870049923F /* AIModels */ = {
+			isa = PBXGroup;
+			children = (
+				032953B42CA6AFA70049923F /* AcneGrad */,
+				032953B32CA6AF990049923F /* BlackHead */,
+				032953B22CA6AF930049923F /* Acne */,
+			);
+			path = AIModels;
+			sourceTree = "<group>";
+		};
+		032953B22CA6AF930049923F /* Acne */ = {
+			isa = PBXGroup;
+			children = (
+				036F04472CA2BDC000B9A93E /* Acne23SepV3.mlmodel */,
+				032953BD2CA6B0130049923F /* Acne27SepPRO.mlmodel */,
+				036F04482CA2BDC000B9A93E /* Acne23SepV3Pro.mlmodel */,
+			);
+			path = Acne;
+			sourceTree = "<group>";
+		};
+		032953B32CA6AF990049923F /* BlackHead */ = {
+			isa = PBXGroup;
+			children = (
+				032953B72CA6AFDD0049923F /* BlackSkinV1.mlmodel */,
+				032953B82CA6AFDD0049923F /* BlackSkinV2PRO.mlmodel */,
+			);
+			path = BlackHead;
+			sourceTree = "<group>";
+		};
+		032953B42CA6AFA70049923F /* AcneGrad */ = {
+			isa = PBXGroup;
+			children = (
+				032953B52CA6AFDD0049923F /* AcneLVL1.mlmodel */,
+				032953B62CA6AFDD0049923F /* AcneLVLPROV1.mlmodel */,
+			);
+			path = AcneGrad;
+			sourceTree = "<group>";
+		};
 		5E73DF46266571D7002891DE = {
 			isa = PBXGroup;
 			children = (
@@ -63,12 +117,14 @@
 				5E73DF6126657B97002891DE /* ImagePicker.swift */,
 				5E73DF52266571D7002891DE /* SeeFoodApp.swift */,
 				5E73DF54266571D7002891DE /* ContentView.swift */,
+				032953B12CA6AF870049923F /* AIModels */,
 				5E73DF56266571D7002891DE /* Assets.xcassets */,
 				5E73DF5B266571D7002891DE /* Info.plist */,
 				5E73DF58266571D7002891DE /* Preview Content */,
 				5E5F7104266598B200C7B0F7 /* Classifier.swift */,
 				5E5F7106266599F200C7B0F7 /* MobileNetV2.mlmodel */,
 				5E5F71082666023400C7B0F7 /* ImageClassifier.swift */,
+				031BE1E62CA639D1003DA43D /* ImageData.swift */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -153,6 +209,14 @@
 				5E5F7105266598B200C7B0F7 /* Classifier.swift in Sources */,
 				5E73DF6226657B97002891DE /* ImagePicker.swift in Sources */,
 				5E73DF55266571D7002891DE /* ContentView.swift in Sources */,
+				036F04492CA2BDC000B9A93E /* Acne23SepV3Pro.mlmodel in Sources */,
+				036F044A2CA2BDC000B9A93E /* Acne23SepV3.mlmodel in Sources */,
+				031BE1E72CA639D1003DA43D /* ImageData.swift in Sources */,
+				032953B92CA6AFDD0049923F /* AcneLVLPROV1.mlmodel in Sources */,
+				032953BE2CA6B0130049923F /* Acne27SepPRO.mlmodel in Sources */,
+				032953BA2CA6AFDD0049923F /* BlackSkinV1.mlmodel in Sources */,
+				032953BB2CA6AFDD0049923F /* BlackSkinV2PRO.mlmodel in Sources */,
+				032953BC2CA6AFDD0049923F /* AcneLVL1.mlmodel in Sources */,
 				5E5F71092666023400C7B0F7 /* ImageClassifier.swift in Sources */,
 				5E5F7107266599F200C7B0F7 /* MobileNetV2.mlmodel in Sources */,
 				5E73DF53266571D7002891DE /* SeeFoodApp.swift in Sources */,
@@ -285,10 +349,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SeeFood/Preview Content\"";
-				DEVELOPMENT_TEAM = C59QF2W8P6;
+				DEVELOPMENT_TEAM = 4JD2N84N6P;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SeeFood/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,10 +371,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SeeFood/Preview Content\"";
-				DEVELOPMENT_TEAM = C59QF2W8P6;
+				DEVELOPMENT_TEAM = 4JD2N84N6P;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SeeFood/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
